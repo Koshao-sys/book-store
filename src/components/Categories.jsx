@@ -2,7 +2,7 @@ import React from 'react';
 
 const Categories = () => (
   <div>
-    Check Status...
+    <button type="submit">CHECK STATUS</button>
   </div>
 );
 

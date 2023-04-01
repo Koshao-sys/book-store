@@ -1,0 +1,77 @@
+.main-container {
+  background-color: #fafafa;
+  padding-bottom: 16.563rem;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  width: 100%;
+}
+
+.book-container .book-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid #e8e8e8;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.book-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.book-comments {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.book-comments li button {
+  border: none;
+  color: inherit;
+}
+
+.home-span {
+  display: block;
+  height: 0.125rem;
+  background-color: #e8e8e8;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+form .input-add-title {
+  width: 50%;
+}
+
+form .input-add-author {
+  width: 25%;
+}
+
+form btn-add-book {
+  width: 15%;
+}

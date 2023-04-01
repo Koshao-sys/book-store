@@ -1,0 +1,21 @@
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-bar ul li:nth-child(-n+1) {
+  font-size:  1.875rem;
+  color: #0290ff;
+}
+
+.nav-bar ul li:nth-child(n+2) {
+  font-size:  0.813rem;
+  color: #121212;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #121212;
+}
