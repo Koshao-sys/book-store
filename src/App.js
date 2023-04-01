@@ -10,8 +10,8 @@ function App() {
     <>
       <Nav />
       <Routes>
-        <Route path='/' element={<Books />} />
-        <Route path='/Categories' element={<Categories />} />
+        <Route path="/" element={<Books />} />
+        <Route path="/Categories" element={<Categories />} />
       </Routes>
     </>
   );
