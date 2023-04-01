@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magician <a name="about-project"></a>
+# 📖 Book Store <a name="about-project"></a>
 
 **Book Store** is a site that shows books adn there respective authors. It also shows a form for adding a new book and an author.
 
