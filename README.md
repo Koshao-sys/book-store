@@ -1,70 +1,238 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Available Scripts
+Modify this file to match your project and remove sections that don't apply.
 
-In the project directory, you can run:
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-### `npm start`
+OPTIONAL SECTIONS:
+- FAQ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After you're finished please remove all the comments and instructions!
+-->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>-->
 
-### `npm test`
+  <h3><b>Book Store CMS</b></h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</div>
 
-### `npm run build`
+<!-- TABLE OF CONTENTS -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 📗 Table of Contents
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  <!--- [🚀 Live Demo](#live-demo)-->
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  <!--- [Deployment](#triangular_flag_on_post-deployment)-->
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+<!--- [❓ FAQ (OPTIONAL)](#faq)-->
+- [📝 License](#license)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- PROJECT DESCRIPTION -->
 
-### `npm run eject`
+# 📖 Math Magician <a name="about-project"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Book Store** is a site that shows books adn there respective authors. It also shows a form for adding a new book and an author.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Built With <a name="built-with"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tech Stack <a name="tech-stack"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-## Learn More
+<!-- Features -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Key Features <a name="key-features"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Form for adding a book**
+- **Navigation bar using Routes**
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- GETTING STARTED -->
 
-### Analyzing the Bundle Size
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To get a local copy up and running, follow these steps.
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In order to run this project you need: VS code editor
 
-### Advanced Configuration
+<!--
+Example command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+ gem install rails
+```
+ -->
 
-### Deployment
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone this repository to your desired folder: https://github.com/Koshao-sys/book-store.git
 
-### `npm run build` fails to minify
+<!--
+Example commands:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with: npm install
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+To run the project, execute the following command: npm run start
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
+
+### Run tests
+
+To run tests, run the following command: npm run test
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+<!--### Deployment
+
+You can deploy this project using:-->
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Koshao Kazungu Godfrey**
+
+- GitHub: [@Koshao-sys](https://github.com/Koshao-sys)
+- LinkedIn: [koshao-godfrey-kazungu](https://www.linkedin.com/in/koshao-godfrey-kazungu-b8b81b245/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Functionality to add books on the Form**
+- [ ] **Removing a Book**
+- [ ] **Editing a Book**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Koshao-sys/book-store/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project then leave a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Microverse for the learning materials and Zeplin Project for the impressive Design.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!--## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>-->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
