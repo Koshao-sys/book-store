@@ -21,8 +21,8 @@ const AddBooks = () => {
     <div className="form-container">
       <p>ADD NEW BOOK</p>
       <form onSubmit={handleClick}>
-        <input type="text" placeholder="Book title" name="title" className="input-add-title" />
-        <input type="text" placeholder="Author" name="author" className="input-add-author" />
+        <input type="text" placeholder="Book title" name="title" className="input-add-title" required />
+        <input type="text" placeholder="Author" name="author" className="input-add-author" required />
         <button type="submit" className="btn-add-book">ADD BOOK</button>
       </form>
     </div>
