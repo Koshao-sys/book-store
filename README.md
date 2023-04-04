@@ -88,6 +88,8 @@ After you're finished please remove all the comments and instructions!
 
 - **Form for adding a book**
 - **Navigation bar using Routes**
+- **Add Books**
+- **Remove Books**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -189,8 +191,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Functionality to add books on the Form**
-- [ ] **Removing a Book**
+- [ ] **Connect to External API**
 - [ ] **Editing a Book**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
