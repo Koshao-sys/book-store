@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Book Store <a name="about-project"></a>
 
-**Book Store** is a site that shows books adn there respective authors. It also shows a form for adding a new book and an author.
+**Book Store** is a site that shows books and there respective authors. It also shows a form for adding a new book and an author.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,12 +75,20 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://redux-toolkit.js.org/">React-Redux</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 - **Form for adding a book**
 - **Navigation bar using Routes**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
