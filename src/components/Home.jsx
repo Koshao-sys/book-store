@@ -5,7 +5,6 @@ import ShowBooks from './ShowBooks';
 import '../styles/Home.css';
 
 const Home = () => {
-
   const bookArray = [
     {
       id: { uuidv4 }, title: 'The Hunger Games', author: 'Suzanne Collins', category: 'Action',
