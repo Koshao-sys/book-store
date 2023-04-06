@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import { useDispatch } from 'react-redux';
 import Nav from './components/Nav';
 import Categories from './components/Categories';
