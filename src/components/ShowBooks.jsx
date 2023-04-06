@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { v4 as uuidv4 } from 'uuid';
 import BookElement from './BookElement';
 import BookProgress from './BookProgress';
 
@@ -7,8 +8,8 @@ const ShowBooks = () => {
   const booksItems = useSelector((store) => store.book);
   return (
     <ul className="book-container">
-      {booksItems.books.map((item) => (
-        <li key={item.item_id} className="book-item">
+      {Object.entries(booksItems.books).map((item) => (
+        <li key={uuidv4()} className="book-item">
           <BookElement item={item} />
           <span>|</span>
           <BookProgress />

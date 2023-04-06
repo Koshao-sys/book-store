@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <!--<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>-->
 
-  <h3><b>Book Store CMS</b></h3>
+  <h3><b>Book Store</b></h3>
 
 </div>
 
@@ -62,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Book Store <a name="about-project"></a>
 
-**Book Store** is a site that shows books and there respective authors. It also shows a form for adding a new book and an author.
+**Book Store** is a site that shows fetches books from an external API and there respective authors. It also shows a form for adding a new book and an author.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,6 +90,7 @@ After you're finished please remove all the comments and instructions!
 - **Navigation bar using Routes**
 - **Add Books**
 - **Remove Books**
+- **Fetch books from external API**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
