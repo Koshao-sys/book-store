@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import { AddBook } from '../redux/features/books/booksSlice';
+import { addBook, getBooks } from '../redux/features/books/booksSlice';
 
 const AddBooks = () => {
   const dispatch = useDispatch();
@@ -12,9 +12,13 @@ const AddBooks = () => {
     const author = e.target.elements.author.value;
     const title = e.target.elements.title.value;
     const book = {
-      item_id: id, title, author, category: 'Fiction',
+      item_id: id, title, author, category: '',
     };
-    dispatch(AddBook(book));
+
+    dispatch(addBook(book))
+      .then(() => {
+        dispatch(getBooks());
+      });
   };
 
   return (
