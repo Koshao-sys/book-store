@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/roboto-slab-2');
+
 .main-container {
   background-color: #fafafa;
   padding-bottom: 16.563rem;
@@ -33,18 +36,160 @@
 .book-details-container {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
+}
+
+.category-name {
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #888;
+}
+
+.title-name {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+  margin: 0;
+}
+
+.author-name {
+  margin: 0.25rem 0 0;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
 }
 
 .book-comments {
   display: flex;
   gap: 10px;
   list-style: none;
+  padding: 0;
+  margin-top: 0.938rem;
 }
 
 .book-comments li button {
   border: none;
-  color: inherit;
+  background-color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding: 0;
+}
+
+.book-comments li .line-1 {
+  width: 0.05rem;
+  height: 1.5rem;
+  border: solid 1px #e8e8e8;
+  background-color: #e8e8e8;
+  display: block;
+}
+
+.book-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.313rem;
+}
+
+.percent {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.percent-value {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  margin: 0;
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.line-2 {
+  display: block;
+  width: 0.125rem;
+  height: 4.375rem;
+  margin: 1.125rem 3.688rem 0 4.938rem;
+  background-color: #e8e8e8;
+  border: solid 1px #e8e8e8;
+}
+
+.prog-1 {
+  opacity: 0.5;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  margin: 0;
+}
+
+.prog-2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.update-progress {
+  width: 11.5rem;
+  height: 2.063rem;
+  margin-top: 1.438rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .home-span {
@@ -59,6 +204,17 @@
   flex-direction: column;
 }
 
+.add-book-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: #888;
+}
+
 form {
   display: flex;
   justify-content: space-between;
@@ -66,12 +222,46 @@ form {
 
 form .input-add-title {
   width: 50%;
+  padding: 0.813rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  color: #c4c4c4;
 }
 
 form .input-add-author {
   width: 25%;
+  padding: 0.813rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  color: #c4c4c4;
 }
 
 form .btn-add-book {
   width: 15%;
+  background-color: #0290ff;
+  border-radius: 3px;
+  border: none;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
 }

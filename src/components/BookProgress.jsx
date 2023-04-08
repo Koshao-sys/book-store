@@ -2,13 +2,9 @@ import React from 'react';
 
 const BookProgress = () => (
   <div>
-    <p>
-      CURRENT CHAPTER
-      <br />
-      {' '}
-      Chapter 17
-    </p>
-    <button type="submit">UPDATE PROGRESS</button>
+    <p className="prog-1">CURRENT CHAPTER</p>
+    <p className="prog-2">Chapter 17</p>
+    <button type="submit" className="update-progress">UPDATE PROGRESS</button>
   </div>
 );
 
