@@ -11,7 +11,7 @@ const ShowBooks = () => {
       {Object.entries(booksItems.books).map((item) => (
         <li key={uuidv4()} className="book-item">
           <BookElement item={item} />
-          <span>|</span>
+          <span className="line-2" />
           <BookProgress />
         </li>
       ))}
